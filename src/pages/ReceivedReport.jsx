@@ -97,13 +97,15 @@ const ReceivedReports = () => {
             <option value="المحلولة">المحلولة</option>
             <option value="المغلقة">المغلقة</option>
           </select>
-          <input
-            type="text"
-            placeholder="id البلاغ"
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            style={{ paddingRight: "35px" }}
-          />
+          <div className="search">
+            <input
+              type="text"
+              placeholder="id البلاغ"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              style={{ paddingRight: "35px" }}
+            />
+          </div>
         </div>
 
         <table className="table">
