@@ -858,8 +858,8 @@ table tbody tr {
 
 /* ========== Status Indicator ========== */
 td {
-  vertical-align: middle; 
-  text-align: center;     
+  vertical-align: middle;
+  text-align: center;
 }
 
 .status-indicator {
@@ -871,8 +871,7 @@ td {
   vertical-align: middle;
   background-color: gray;
   vertical-align: middle;
-    text-align: center;
-
+  text-align: center;
 }
 
 .status-indicator.active {
@@ -885,7 +884,7 @@ td {
 
 /* ========== Dropdown ========== */
 .dropdown-menu {
- background-color: var(--secondry-color) !important;
+  background-color: var(--secondry-color) !important;
   color: var(--font-color) !important;
 }
 
@@ -903,7 +902,6 @@ td {
   color: var(--font-color);
   transform: rotate(90deg);
 }
-
 
 /* ========== Report Dropdown ========== */
 .dropdown.reportStatus .dropdown-toggle {
@@ -1095,7 +1093,9 @@ td {
 
 .card-header-tabs .nav-link.active {
   border-color: var(--purple);
+  background-color: var(--box-color) !important;
   font-weight: bold;
+  color: var(--font-color) !important;
 }
 
 .card-body {
@@ -1601,4 +1601,3 @@ input[type="tel"] {
     gap: 10px;
   }
 }
-
