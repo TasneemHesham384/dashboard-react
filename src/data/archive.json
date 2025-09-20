@@ -1,0 +1,286 @@
+{
+  "reports": {
+    "report_1": {
+      "id": 1,
+      "report_type": "حادث سير",
+      "location": "شارع النيل 1",
+      "location_link": "https://maps.google.com/?q=30.001,31.001",
+      "incident_date": "2025-09-15",
+      "report_details": "حادث سير",
+      "contact_info": "01012345678",
+      "criminal_infos": [
+        {
+          "name": "أحمد",
+          "description": "سائق متهور",
+          "other_info": "تم التعرف عليه"
+        }
+      ],
+      "attachments": [
+        { "file": "dashboard/imgs/image.jpg" },
+        { "audio_recording": "recording1.webm" }
+      ],
+      "status": "تم الحل"
+    },
+    "report_2": {
+      "id": 2,
+      "report_type": "مشاجرة",
+      "location": "شارع الملكة 5",
+      "location_link": "https://maps.google.com/?q=30.002,31.002",
+      "incident_date": "2025-09-14",
+      "report_details": "مشاجرة بين شخصين",
+      "contact_info": "01087654321",
+      "criminal_infos": [
+        {
+          "name": "محمد",
+          "description": "مشارك في المشاجرة",
+          "other_info": ""
+        }
+      ],
+      "attachments": [{ "file": "image2.jpg" }],
+      "status": "تم الغلق"
+    },
+    "report_3": {
+      "id": 3,
+      "report_type": "خطر مروري",
+      "location": "شارع التحرير 12",
+      "location_link": "https://maps.google.com/?q=30.003,31.003",
+      "incident_date": "2025-09-13",
+      "report_details": "خطر مروري",
+      "contact_info": "01011223344",
+      "criminal_infos": [],
+      "attachments": [],
+      "status": "تم الحل"
+    },
+    "report_4": {
+      "id": 4,
+      "report_type": "خلاف عائلي",
+      "location": "شارع الجامعة 7",
+      "location_link": "https://maps.google.com/?q=30.004,31.004",
+      "incident_date": "2025-09-12",
+      "report_details": "خلاف عائلي",
+      "contact_info": "01055667788",
+      "criminal_infos": [
+        {
+          "name": "سارة",
+          "description": "طرف في الخلاف",
+          "other_info": "تم إعلام الشرطة"
+        }
+      ],
+      "attachments": [],
+      "status": "تم الغلق"
+    },
+    "report_5": {
+      "id": 5,
+      "report_type": "سرقة",
+      "location": "شارع السلام 3",
+      "location_link": "https://maps.google.com/?q=30.005,31.005",
+      "incident_date": "2025-09-11",
+      "report_details": "سرقة محل تجاري",
+      "contact_info": "01099887766",
+      "criminal_infos": [
+        {
+          "name": "خالد",
+          "description": "مشبوه",
+          "other_info": ""
+        }
+      ],
+      "attachments": [
+        { "file": "image5.jpg" },
+        { "audio_recording": "recording5.webm" }
+      ],
+      "status": "تم الغلق"
+    },
+    "report_6": {
+      "id": 6,
+      "report_type": "حادث سير",
+      "location": "شارع 6 أكتوبر 8",
+      "location_link": "https://maps.google.com/?q=30.006,31.006",
+      "incident_date": "2025-09-10",
+      "report_details": "حادث سير",
+      "contact_info": "01012349876",
+      "criminal_infos": [],
+      "attachments": [],
+      "status": "تم الغلق"
+    },
+    "report_7": {
+      "id": 7,
+      "report_type": "خطر مروري",
+      "location": "شارع التحرير 15",
+      "location_link": "https://maps.google.com/?q=30.007,31.007",
+      "incident_date": "2025-09-09",
+      "report_details": "خطر مروري",
+      "contact_info": "01056781234",
+      "criminal_infos": [
+        { "name": "ليلى", "description": "مشارك", "other_info": "" }
+      ],
+      "attachments": [{ "file": "image7.jpg" }],
+      "status": "تم الغلق"
+    },
+    "report_8": {
+      "id": 8,
+      "report_type": "مشاجرة",
+      "location": "شارع النصر 4",
+      "location_link": "https://maps.google.com/?q=30.008,31.008",
+      "incident_date": "2025-09-08",
+      "report_details": "مشاجرة",
+      "contact_info": "01011224455",
+      "criminal_infos": [],
+      "attachments": [],
+      "status": "تم الحل"
+    },
+    "report_9": {
+      "id": 9,
+      "report_type": "خلاف عائلي",
+      "location": "شارع الهرم 2",
+      "location_link": "https://maps.google.com/?q=30.009,31.009",
+      "incident_date": "2025-09-07",
+      "report_details": "خلاف عائلي",
+      "contact_info": "01055661122",
+      "criminal_infos": [
+        { "name": "يوسف", "description": "طرف في الخلاف", "other_info": "" }
+      ],
+      "attachments": [{ "file": "image9.jpg" }],
+      "status": "تم الحل"
+    },
+    "report_10": {
+      "id": 10,
+      "report_type": "سرقة",
+      "location": "شارع الجامعة 9",
+      "location_link": "https://maps.google.com/?q=30.010,31.010",
+      "incident_date": "2025-09-06",
+      "report_details": "سرقة محل",
+      "contact_info": "01099881122",
+      "criminal_infos": [],
+      "attachments": [{ "audio_recording": "recording10.webm" }],
+      "status": "تم الحل"
+    },
+    "report_11": {
+      "id": 11,
+      "report_type": "حادث سير",
+      "location": "شارع 11",
+      "location_link": "https://maps.google.com/?q=30.011,31.011",
+      "incident_date": "2025-09-05",
+      "report_details": "حادث سير",
+      "contact_info": "01011112233",
+      "criminal_infos": [],
+      "attachments": [],
+      "status": "تم الغلق"
+    },
+    "report_12": {
+      "id": 12,
+      "report_type": "مشاجرة",
+      "location": "شارع 12",
+      "location_link": "https://maps.google.com/?q=30.012,31.012",
+      "incident_date": "2025-09-04",
+      "report_details": "مشاجرة",
+      "contact_info": "01022223344",
+      "criminal_infos": [
+        { "name": "سارة", "description": "طرف", "other_info": "" }
+      ],
+      "attachments": [{ "file": "image12.jpg" }],
+      "status": "تم الحل"
+    },
+    "report_13": {
+      "id": 13,
+      "report_type": "خطر مروري",
+      "location": "شارع 13",
+      "location_link": "https://maps.google.com/?q=30.013,31.013",
+      "incident_date": "2025-09-03",
+      "report_details": "خطر مروري",
+      "contact_info": "01033334455",
+      "criminal_infos": [],
+      "attachments": [],
+      "status": "تم الحل"
+    },
+    "report_14": {
+      "id": 14,
+      "report_type": "خلاف عائلي",
+      "location": "شارع 14",
+      "location_link": "https://maps.google.com/?q=30.014,31.014",
+      "incident_date": "2025-09-02",
+      "report_details": "خلاف عائلي",
+      "contact_info": "01044445566",
+      "criminal_infos": [
+        { "name": "ليلى", "description": "طرف", "other_info": "" }
+      ],
+      "attachments": [{ "file": "image14.jpg" }],
+      "status": "تم الغلق"
+    },
+    "report_15": {
+      "id": 15,
+      "report_type": "سرقة",
+      "location": "شارع 15",
+      "location_link": "https://maps.google.com/?q=30.015,31.015",
+      "incident_date": "2025-09-01",
+      "report_details": "سرقة محل",
+      "contact_info": "01055556677",
+      "criminal_infos": [],
+      "attachments": [{ "audio_recording": "recording15.webm" }],
+      "status": "تم الحل"
+    },
+    "report_16": {
+      "id": 16,
+      "report_type": "حادث سير",
+      "location": "شارع 16",
+      "location_link": "https://maps.google.com/?q=30.016,31.016",
+      "incident_date": "2025-08-31",
+      "report_details": "حادث سير",
+      "contact_info": "01066667788",
+      "criminal_infos": [],
+      "attachments": [],
+      "status": "تم الغلق"
+    },
+    "report_17": {
+      "id": 17,
+      "report_type": "خطر مروري",
+      "location": "شارع 17",
+      "location_link": "https://maps.google.com/?q=30.017,31.017",
+      "incident_date": "2025-08-30",
+      "report_details": "خطر مروري",
+      "contact_info": "01077778899",
+      "criminal_infos": [],
+      "attachments": [],
+      "status": "تم الحل"
+    },
+    "report_18": {
+      "id": 18,
+      "report_type": "مشاجرة",
+      "location": "شارع 18",
+      "location_link": "https://maps.google.com/?q=30.018,31.018",
+      "incident_date": "2025-08-29",
+      "report_details": "مشاجرة",
+      "contact_info": "01088889900",
+      "criminal_infos": [
+        { "name": "خالد", "description": "طرف", "other_info": "" }
+      ],
+      "attachments": [{ "file": "image18.jpg" }],
+      "status": "تم الحل"
+    },
+    "report_19": {
+      "id": 19,
+      "report_type": "خلاف عائلي",
+      "location": "شارع 19",
+      "location_link": "https://maps.google.com/?q=30.019,31.019",
+      "incident_date": "2025-08-28",
+      "report_details": "خلاف عائلي",
+      "contact_info": "01099990011",
+      "criminal_infos": [],
+      "attachments": [],
+      "status": "تم الغلق"
+    },
+    "report_20": {
+      "id": 20,
+      "report_type": "سرقة",
+      "location": "شارع 20",
+      "location_link": "https://maps.google.com/?q=30.020,31.020",
+      "incident_date": "2025-08-27",
+      "report_details": "سرقة محل",
+      "contact_info": "01000001122",
+      "criminal_infos": [
+        { "name": "أحمد", "description": "مشبوه", "other_info": "" }
+      ],
+      "attachments": [{ "audio_recording": "recording20.webm" }],
+      "status": "تم الحل"
+    }
+  }
+}
