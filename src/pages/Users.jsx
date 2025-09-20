@@ -245,7 +245,7 @@ const Users = () => {
         <h3 className="fw-bold">إدارة المستخدمين</h3>
         <button
           type="button"
-          className="btn btn-primary"
+          className=" btn-primary"
           data-bs-toggle="modal"
           data-bs-target="#addUserModal"
         >
@@ -513,7 +513,7 @@ const Users = () => {
             <div className="modal-footer">
               <button
                 type="button"
-                className=" btn-secondary"
+                className="btn btn-secondary"
                 data-bs-dismiss="modal"
               >
                 إغلاق
