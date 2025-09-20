@@ -265,14 +265,16 @@ const Users = () => {
             <option value="النشطاء">النشطاء</option>
             <option value="المحظورون">المحظورون</option>
           </select>
-          <input
-            type="text"
-            className="form-control"
-            placeholder="الاسم"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            style={{ maxWidth: "250px" }}
-          />
+          <div className="search">
+            <input
+              type="text"
+              className="form-control"
+              placeholder="الاسم"
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              style={{ maxWidth: "250px" }}
+            />
+          </div>
         </div>
 
         {/* Users Table */}
