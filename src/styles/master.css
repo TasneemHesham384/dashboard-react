@@ -1173,12 +1173,6 @@ input[type="color"] {
 }
 /* end setting */
 /* start profile */
-body {
-  background-color: var(--back-ground);
-  color: var(--font-color);
-  font-family: "Segoe UI", sans-serif;
-  transition: all 0.3s ease;
-}
 
 .card {
   background-color: var(--box-color);
@@ -1607,3 +1601,4 @@ input[type="tel"] {
     gap: 10px;
   }
 }
+
